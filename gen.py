@@ -34,6 +34,7 @@ TEMPLATE_COLOR_PALETTES = {
     "darkRed":None,
     "white":['#6a5acd', '#8a7db0', '#d8d8f0', '#6a5acd', '#8a7db0', '#e6e6fa', '#f5f5ff'],
     "oldDefault":None,
+    "privitorta":None,
 }
 
 def resolve_fullname(player_data):
