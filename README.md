@@ -1,4 +1,4 @@
-# Olicyber Badge Generator
+# OliCyber.IT Badge Generator
 
 A github workflow to generate cards like this:
 
