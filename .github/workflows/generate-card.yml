@@ -51,8 +51,7 @@ jobs:
           const fs = require('fs');
           const path = './card.svg';  // Ensure this is the correct path
           const content = fs.readFileSync(path, { encoding: 'base64' });
-          const owner = process.env.GITHUB_ACTOR;  // GitHub username (owner of the repo)
-          const repo = process.env.GITHUB_REPOSITORY.split('/')[1];  // Repository name
+          const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
           const filePath = 'card.svg';
           
           try {
@@ -67,7 +66,7 @@ jobs:
               owner,
               repo,
               path: filePath,
-              message: 'Upload SVG Card',
+              message: 'card update',
               content,
               sha,  // Provide the sha here
               committer: {
@@ -80,7 +79,7 @@ jobs:
               owner,
               repo,
               path: filePath,
-              message: 'Upload SVG Card',
+              message: 'card update',
               content,
               committer: {
                 name: 'GitHub Actions',
