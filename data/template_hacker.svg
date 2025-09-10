@@ -5,25 +5,25 @@
     </filter>
   </defs>
   <!-- Background -->
-  <rect width="350" height="200" rx="0" fill="#0c0c0c" stroke="#F7C938" stroke-width="2"/>
+  <rect width="350" height="200" rx="20" fill="#0c0c0c" stroke="#F7C938" stroke-width="2"/>
   
   <!-- Terminal Header -->
   <rect x="10" y="10" width="330" height="25" rx="0" fill="#131313"/>
   <text x="175" y="25" text-anchor="middle" font-family="monospace" font-size="14" fill="#F7C938">user@olicyber:~$</text>
   
   <!-- Main Content -->
-  <text x="20" y="55" font-family="monospace" font-weight="bold" font-size="16" fill="#F7C938" filter="url(#matrixGlow)">USER PROFILE: {username}</text>
+  <text x="20" y="55" font-family="monospace" font-weight="bold" font-size="16" fill="#F7C938" filter="url(#matrixGlow)">user: {username}</text>
 
   <!-- Terminal-style divider -->
-  <text x="20" y="70" font-family="monospace" font-size="14" fill="#F7C938">======================================</text>
+  <text x="20" y="70" font-family="monospace" font-size="12" fill="#F7C938">======================================</text>
 
   <!-- Stats in terminal style -->
-  <text x="20" y="90" font-family="monospace" font-size="14" fill="#F7C938">$ cat stats.json</text>
-  <text x="20" y="110" font-family="monospace" font-size="14" fill="#F7C938">{{</text>
-  <text x="30" y="130" font-family="monospace" font-size="14" fill="#F7C938"> "score": "{score}",</text>
-  <text x="30" y="150" font-family="monospace" font-size="14" fill="#F7C938"> "solved_challenges": "{solved_challenges}",</text>
-  <text x="30" y="170" font-family="monospace" font-size="14" fill="#F7C938"> "rank": "{scoreboard_position}°",</text>
-  <text x="30" y="190" font-family="monospace" font-size="14" fill="#F7C938"> "best_category": "{best_category}"</text>
+  <text x="20" y="90" font-family="monospace" font-size="12" fill="#F7C938">$ cat stats.json</text>
+  <text x="20" y="110" font-family="monospace" font-size="12" fill="#F7C938">{{</text>
+  <text x="30" y="130" font-family="monospace" font-size="12" fill="#F7C938"> "score": "{score}",</text>
+  <text x="30" y="150" font-family="monospace" font-size="12" fill="#F7C938"> "solved_challenges": "{solved_challenges}",</text>
+  <text x="30" y="170" font-family="monospace" font-size="12" fill="#F7C938"> "rank": "{scoreboard_position}°",</text>
+  <text x="30" y="190" font-family="monospace" font-size="12" fill="#F7C938"> "best_category": "{best_category}"</text>
 
   <!-- Code animation (simulated) -->
   <g opacity="0.2">
