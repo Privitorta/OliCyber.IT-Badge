@@ -5,10 +5,10 @@
     </filter>
   </defs>
   <!-- Background -->
-  <rect width="350" height="200" rx="20" fill="#0c0c0c" stroke="#F6D11E" stroke-width="2"/>
+  <rect width="350" height="200" rx="20" fill="#00000004" stroke="#F6D11E" stroke-width="2"/>
 
   <!-- Terminal Header -->
-  <rect x="10" y="10" width="330" height="25" rx="0" fill="#131313"/>
+  <rect x="10" y="10" width="330" height="25" rx="0" fill="#00000004"/>
   <text x="175" y="25" text-anchor="middle" font-family="monospace" font-size="14" fill="#F6D11E">user@olicyber:~$</text>
 
   <!-- Main Content -->
