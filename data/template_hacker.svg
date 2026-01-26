@@ -1,11 +1,11 @@
-<svg width="350" height="200" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="350" height="230" viewBox="0 0 350 230" xmlns="http://www.w3.org/2000/svg">
  <defs>
     <filter id="matrixGlow">
       <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#F6D11E"/>
     </filter>
   </defs>
   <!-- Background -->
-  <rect width="350" height="200" rx="20" fill="#00000004" stroke="#F6D11E" stroke-width="2"/>
+  <rect width="350" height="230" rx="20" fill="#00000004" stroke="#F6D11E" stroke-width="2"/>
 
   <!-- Terminal Header -->
   <rect x="10" y="10" width="330" height="25" rx="0" fill="#00000004"/>
@@ -15,24 +15,28 @@
   <text x="20" y="55" font-family="monospace" font-weight="bold" font-size="16" fill="#F6D11E" filter="url(#matrixGlow)">user: {username}</text>
 
   <!-- Terminal-style divider -->
-  <text x="20" y="70" font-family="monospace" font-size="12" fill="#F6D11E">======================================</text>
+  <text x="20" y="70" font-family="monospace" font-size="10" fill="#F6D11E">======================================</text>
 
   <!-- Stats in terminal style -->
-  <text x="20" y="90" font-family="monospace" font-size="12" fill="#F6D11E">$ cat stats.json</text>
-  <text x="20" y="110" font-family="monospace" font-size="12" fill="#F6D11E">{{</text>
-  <text x="30" y="130" font-family="monospace" font-size="12" fill="#F6D11E"> "score": "{score}",</text>
-  <text x="30" y="150" font-family="monospace" font-size="12" fill="#F6D11E"> "solved_challenges": "{solved_challenges}",</text>
-  <text x="30" y="170" font-family="monospace" font-size="12" fill="#F6D11E"> "rank": "{scoreboard_position}°",</text>
-  <text x="30" y="190" font-family="monospace" font-size="12" fill="#F6D11E"> "best_category": "{best_category}"</text>
+  <text x="20" y="90" font-family="monospace" font-size="10" fill="#F6D11E">$ cat stats.json</text>
+  <text x="20" y="110" font-family="monospace" font-size="10" fill="#F6D11E">{{</text>
+  <text x="30" y="130" font-family="monospace" font-size="10" fill="#F6D11E"> "score": "{score}",</text>
+  <text x="30" y="150" font-family="monospace" font-size="10" fill="#F6D11E"> "solved_challenges": "{solved_challenges}",</text>
+  <text x="30" y="170" font-family="monospace" font-size="10" fill="#F6D11E"> "rank": "{scoreboard_position}°",</text>
+  <text x="30" y="190" font-family="monospace" font-size="10" fill="#F6D11E"> "best_category": "{best_category}"</text>
+  <text x="20" y="210" font-family="monospace" font-size="10" fill="#F6D11E">}}</text>
 
-  <!-- Code animation (simulated) -->
+  <!-- Code -->
   <g opacity="0.2">
-    <text x="200" y="80" font-family="monospace" font-size="10" fill="#F6D11E">01001001</text>
-    <text x="240" y="95" font-family="monospace" font-size="10" fill="#F6D11E">10101010</text>
-    <text x="210" y="110" font-family="monospace" font-size="10" fill="#F6D11E">01110001</text>
-    <text x="260" y="125" font-family="monospace" font-size="10" fill="#F6D11E">11100110</text>
-    <text x="220" y="140" font-family="monospace" font-size="10" fill="#F6D11E">10011011</text>
-    <text x="250" y="155" font-family="monospace" font-size="10" fill="#F6D11E">01010111</text>
-    <text x="230" y="170" font-family="monospace" font-size="10" fill="#F6D11E">11001101</text>
+    <text x="200" y="80" font-family="monospace" font-size="10" fill="#F6D11E">01110000</text>
+    <text x="240" y="95" font-family="monospace" font-size="10" fill="#F6D11E">01110010</text>
+    <text x="210" y="110" font-family="monospace" font-size="10" fill="#F6D11E">01101001</text>
+    <text x="260" y="125" font-family="monospace" font-size="10" fill="#F6D11E">01110110</text>
+    <text x="220" y="140" font-family="monospace" font-size="10" fill="#F6D11E">01101001</text>
+    <text x="250" y="155" font-family="monospace" font-size="10" fill="#F6D11E">01110100</text>
+    <text x="230" y="170" font-family="monospace" font-size="10" fill="#F6D11E">01101111</text>
+    <text x="270" y="185" font-family="monospace" font-size="10" fill="#F6D11E">01110010</text>
+    <text x="240" y="200" font-family="monospace" font-size="10" fill="#F6D11E">01110100</text>
+    <text x="280" y="215" font-family="monospace" font-size="10" fill="#F6D11E">01100001</text>
   </g>
 </svg>
