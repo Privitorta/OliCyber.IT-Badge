@@ -20,9 +20,9 @@
   <!-- Stats in terminal style -->
   <text x="20" y="90" font-family="monospace" font-size="10" fill="#F6D11E">$ cat stats.json</text>
   <text x="20" y="110" font-family="monospace" font-size="10" fill="#F6D11E">{</text>
-  <text x="30" y="130" font-family="monospace" font-size="10" fill="#F6D11E"> "score": "71310",</text>
+  <text x="30" y="130" font-family="monospace" font-size="10" fill="#F6D11E"> "score": "71312",</text>
   <text x="30" y="150" font-family="monospace" font-size="10" fill="#F6D11E"> "solved_challenges": "187",</text>
-  <text x="30" y="170" font-family="monospace" font-size="10" fill="#F6D11E"> "rank": "235°",</text>
+  <text x="30" y="170" font-family="monospace" font-size="10" fill="#F6D11E"> "rank": "236°",</text>
   <text x="30" y="190" font-family="monospace" font-size="10" fill="#F6D11E"> "best_category": "Web"</text>
   <text x="20" y="210" font-family="monospace" font-size="10" fill="#F6D11E">}</text>
 
